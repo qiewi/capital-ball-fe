@@ -39,7 +39,7 @@ export function Navbar() {
           <Link href="/" className="flex items-center">
             <div className="relative w-64 h-16">
               <Image
-                src="/images/logo.png"
+                src="/images/Navbar/logo.png"
                 alt="CapitalBall Logo"
                 width={256}
                 height={256}
