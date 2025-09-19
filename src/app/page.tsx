@@ -1,4 +1,4 @@
-import { Navbar } from "@/components/layout/Navbar";
+import { Navbar } from "@/components/layout/Header";
 import { HeroSection } from "@/components/layout/HeroSection";
 import { ContentSection } from "@/components/Home/ContentSection";
 
