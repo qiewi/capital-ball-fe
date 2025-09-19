@@ -26,9 +26,6 @@ export function HeroSection() {
         <div className="text-center px-6 max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-8 leading-tight">
             Our vision, like yours{" "}
-            <div className="inline-flex items-center justify-center w-16 h-16 bg-white/20 backdrop-blur-sm rounded-full mx-4 cursor-pointer hover:bg-white/30 transition-all duration-300">
-              <Play className="w-8 h-8 text-white ml-1" fill="currentColor" />
-            </div>{" "}
             to always look ahead.
           </h1>
 
