@@ -7,22 +7,22 @@ export function ProfileSection() {
     {
       name: "Clara Priscilla",
       role: "Analyst in Banking and Mining Sector",
-      image: "/images/clara-placeholder.jpg"
+      image: "/images/About/clara.png"
     },
     {
       name: "Alya Azahra",
       role: "Analyst in ...",
-      image: "/images/alya-placeholder.jpg"
+      image: "/images/About/alya.png"
     },
     {
       name: "Inara Sarazmyta",
       role: "Analyst in ...",
-      image: "/images/inara-placeholder.jpg"
+      image: "/images/About/inara.png"
     },
     {
       name: "M.Febryanto Widya",
       role: "Analyst in Banking and Technology Sector",
-      image: "/images/febryanto-placeholder.jpg"
+      image: "/images/About/febry.png"
     }
   ];
 

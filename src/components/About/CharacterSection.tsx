@@ -5,17 +5,17 @@ export function CharacterSection() {
     {
       title: "Precision",
       description: "Every decision is deliberate. We rely on research, analytics, and careful judgment to choose assets that fit your goals — no guesswork, no hype.",
-      image: "/images/precision-placeholder.jpg"
+      image: "/images/About/content-1.png"
     },
     {
       title: "Patience",
       description: "We know that building real wealth takes time. Our strategies are designed to stay focused on the bigger picture and not be swayed by short-term market drama.",
-      image: "/images/patience-placeholder.jpg"
+      image: "/images/About/content-2.png"
     },
     {
       title: "Performance",
       description: "At the end of the day, results matter. We aim to deliver strong, consistent returns while safeguarding what you've worked so hard to build.",
-      image: "/images/performance-placeholder.jpg"
+      image: "/images/About/content-3.png"
     }
   ];
 
