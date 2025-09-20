@@ -30,10 +30,10 @@ export function Navbar() {
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled
+        isScrolled || isMobileMenuOpen
           ? "bg-slate-900/95 backdrop-blur-md shadow-lg"
           : "bg-transparent"
-      }`}
+        }`}
     >
       <div className="container mx-auto px-6 py-3">
         <div className="flex items-center justify-between">
@@ -81,7 +81,7 @@ export function Navbar() {
 
       {/* Mobile Navigation Menu */}
       {isMobileMenuOpen && (
-        <div className="md:hidden bg-slate-900/95 backdrop-blur-md border-t border-gray-700">
+        <div className="md:hidden bg-slate-900/20 backdrop-blur-md border-t border-gray-700">
           <div className="container mx-auto px-6 py-4">
             <div className="flex flex-col space-y-4">
               {navItems.map((item) => (
