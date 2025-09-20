@@ -6,7 +6,11 @@ export default function Home() {
   return (
     <main>
       <Navbar />
-      <HeroSection />
+      <HeroSection 
+        videoSrc="/videos/video-1.mp4"
+        title="Our vision, like yours to always look ahead."
+        subtitle="Professional financial advisory services built with modern technology stack"
+      />
       <ContentSection
         variant="right"
         contentType="video"

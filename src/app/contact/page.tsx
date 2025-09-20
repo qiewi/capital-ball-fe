@@ -6,7 +6,11 @@ export default function ContactPage() {
   return (
     <main>
       <Navbar/>
-      <HeroSection />
+      <HeroSection
+        videoSrc="/videos/video-1.mp4"
+        title="Start the Conversation."
+        subtitle="Ready to start your wealth-building journey? Let's discuss how we can help you achieve your financial goals"
+      />
       <ContactSection />
     </main>
   );

@@ -2,7 +2,17 @@
 
 import { Play } from "lucide-react";
 
-export function HeroSection() {
+interface HeroSectionProps {
+  videoSrc?: string;
+  title?: string;
+  subtitle?: string;
+}
+
+export function HeroSection({
+  videoSrc,
+  title,
+  subtitle
+}: HeroSectionProps) {
   return (
     <section className="relative h-screen w-full overflow-hidden">
       {/* Background Video */}
@@ -14,7 +24,7 @@ export function HeroSection() {
           playsInline
           className="h-full w-full object-cover"
         >
-          <source src="/videos/hero-background.mp4" type="video/mp4" />
+          <source src={videoSrc} type="video/mp4" />
           {/* Fallback gradient background */}
         </video>
         {/* Dark overlay */}
@@ -25,12 +35,11 @@ export function HeroSection() {
       <div className="relative z-10 flex h-full items-center justify-center">
         <div className="text-center px-6 max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-8 leading-tight">
-            Our vision, like yours{" "}
-            to always look ahead.
+            {title}
           </h1>
 
           <p className="text-xl md:text-2xl text-white/90 max-w-2xl mx-auto leading-relaxed">
-            Professional financial advisory services built with modern technology stack
+            {subtitle}
           </p>
         </div>
       </div>

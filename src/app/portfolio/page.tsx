@@ -6,7 +6,11 @@ export default function PortfolioPage() {
   return (
     <main>
       <Navbar/>
-      <HeroSection />
+      <HeroSection
+        videoSrc="/videos/video-3.mp4"
+        title="Investment Playbook."
+        subtitle="Explore our strategic approach to building diversified portfolios that stand the test of time"
+      />
       <OutlookSection />
     </main>
   );
