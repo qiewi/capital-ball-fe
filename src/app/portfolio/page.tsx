@@ -4,7 +4,7 @@ import { OutlookSection } from "@/components/Portfolio/OutlookSection";
 
 export default function PortfolioPage() {
   return (
-    <main className="min-h-screen">
+    <main>
       <Navbar/>
       <HeroSection />
       <OutlookSection />

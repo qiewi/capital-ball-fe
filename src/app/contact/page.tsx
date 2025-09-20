@@ -4,7 +4,7 @@ import { Navbar } from "@/components/layout/Header";
 
 export default function ContactPage() {
   return (
-    <main className="min-h-screen">
+    <main>
       <Navbar/>
       <HeroSection />
       <ContactSection />

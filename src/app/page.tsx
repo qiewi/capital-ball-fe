@@ -4,7 +4,7 @@ import { ContentSection } from "@/components/Home/ContentSection";
 
 export default function Home() {
   return (
-    <main className="min-h-screen">
+    <main>
       <Navbar />
       <HeroSection />
       <ContentSection

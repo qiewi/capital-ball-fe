@@ -5,7 +5,7 @@ import { Navbar } from "@/components/layout/Header";
 
 export default function AboutPage() {
   return (
-    <main className="min-h-screen">
+    <main>
       <Navbar />
       <HeroSection />
       <CharacterSection />

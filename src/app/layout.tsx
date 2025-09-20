@@ -26,7 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark" suppressHydrationWarning>
-      <body className={`${instrumentSans.variable} font-sans antialiased`}>
+      <body className={`${instrumentSans.variable} font-sans antialiased min-h-screen`}>
         {children}
       </body>
     </html>

@@ -80,7 +80,7 @@ export function ContentSection({
   const textContent = (
     <div className={isContentOnRight ? "lg:pr-8" : "lg:pl-8"}>
       {subtitle && (
-        <div className="mb-8">
+        <div className="mb-4">
           <span className={`text-sm font-semibold uppercase tracking-wider ${getSubtitleColorClass()}`}>
             {subtitle}
           </span>
