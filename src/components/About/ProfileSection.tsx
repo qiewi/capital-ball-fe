@@ -12,12 +12,12 @@ export function ProfileSection() {
     },
     {
       name: "Alya Azahra",
-      role: "Analyst in ...",
+      role: "Analyst in Banking and Property Sector",
       image: "/images/About/alya.jpeg"
     },
     {
       name: "Inara Sarazmyta",
-      role: "Analyst in ...",
+      role: "Analyst in Banking and Healthcare Sector",
       image: "/images/About/inara.jpg"
     },
     {
