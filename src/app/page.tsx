@@ -1,6 +1,7 @@
 import { Navbar } from "@/components/layout/Header";
 import { HeroSection } from "@/components/layout/HeroSection";
 import { ContentSection } from "@/components/Home/ContentSection";
+import { IntroSection } from "@/components/Home/IntroSection";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         title="Our vision, like yours to always look ahead."
         subtitle="Professional financial advisory services built with modern technology stack"
       />
+      <IntroSection />
       <ContentSection
         variant="right"
         contentType="video"
