@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+
 export function CharacterSection() {
   const characters = [
     {
@@ -32,10 +34,13 @@ export function CharacterSection() {
           {characters.map((character, index) => (
             <div key={index} className="text-center">
               <div className="mb-6">
-                <img
+                <Image
                   src={character.image}
                   alt={character.title}
+                  width={400}
+                  height={256}
                   className="w-full h-64 object-cover rounded-lg"
+                  loading="lazy"
                 />
               </div>
 
