@@ -7,27 +7,27 @@ export function ProfileSection() {
   const profiles = [
     {
       name: "Clara Priscilla",
-      role: "Analyst in Banking and Mining Sector",
+      role: "Analyst in Finance and Basic Industrial Sector",
       image: "/images/About/clara.JPG"
     },
     {
       name: "Alya Azahra",
-      role: "Analyst in Banking and Property Sector",
+      role: "Analyst in Finance and Energy Sector",
       image: "/images/About/alya.jpeg"
     },
     {
       name: "Inara Sarazmyta",
-      role: "Analyst in Banking and Healthcare Sector",
+      role: "Analyst in Finance and Non-Cyclical Sector",
       image: "/images/About/inara.jpg"
     },
     {
       name: "M.Febryanto Widya",
-      role: "Analyst in Banking and Technology Sector",
+      role: "Analyst in Finance and Non-Cyclical Sector",
       image: "/images/About/febry.jpeg"
     },
     {
       name: "Rizqi Andhika",
-      role: "Analyst in Banking and Technology Sector",
+      role: "Analyst in Finance and Energy Sector",
       image: "/images/About/qie.jpg"
     }
   ];
