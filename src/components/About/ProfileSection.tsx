@@ -22,7 +22,7 @@ export function ProfileSection() {
     },
     {
       name: "M.Febryanto Widya",
-      role: "Analyst in Finance and Non-CyclicalSector",
+      role: "Analyst in Finance and Non-Cyclical Sector",
       image: "/images/About/febry.jpeg"
     },
     {
